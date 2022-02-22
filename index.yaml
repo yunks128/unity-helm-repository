@@ -11,4 +11,15 @@ entries:
     urls:
     - https://github.com/unity-sds/unity-helm-repository/releases/download/gabschart-20.0.0/gabschart-20.0.0.tgz
     version: 20.0.0
+  sps:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-02-22T13:14:27.973684749Z"
+    description: SPS Helm Chart
+    digest: 0d76b9019bd4f85862254a1ad32b58f0a04f7d2baec29532363c9348816e2249
+    name: sps
+    type: application
+    urls:
+    - https://github.com/unity-sds/unity-helm-repository/releases/download/sps-0.1.0/sps-0.1.0.tgz
+    version: 0.1.0
 generated: "2022-02-15T20:52:51.838153316Z"
