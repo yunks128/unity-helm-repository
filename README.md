@@ -34,3 +34,12 @@ Of course, also, if your deployment is really simple, you don't need any templat
 The easiest way to get started is to use a template: `helm create my-unity-chart` and modify its contents from there!
 
 ## How do I add my Helm chart to the repository?
+
+To deploy your Chart to Unity, you need to have supplied it to our repository. This will make it available to our deployment service and to other consumers. The easiest way to do that is to 
+
+- Fork this repository
+- Create a branch in your fork and add your chart and all the associated files to the charts directory, ensure your chart has a unique name.
+- Create a Pull Request
+- Notify the Unity CS team that your PR is awaiting review.
+
+Once the pull request is merged, your chart will then be available for installation on the Unity platform.
