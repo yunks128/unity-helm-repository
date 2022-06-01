@@ -13,9 +13,11 @@ Kubernetes applications can become complicated in a hurry.
 - Configmaps
 - Secrets
 - Environment variables
-- L oad balancers
+- Load balancers
 - Services 
-and so on. Quite often you'll need some or all of the above. Helm can help you manage these resources, upgrade and update in lockstep with one another and extend your application capabilities with clever templates and run time configuration options that can set variables and similar without them being hardcoded into your pod or config definitions.
+- and so on... 
+
+Quite often you'll need some or all of the above. Helm can help you manage these resources, upgrade and update in lockstep with one another and extend your application capabilities with clever templates and run time configuration options that can set variables and similar without them being hardcoded into your pod or config definitions.
 
 The other important thing we can do with Helm charts and the Unity platform is combine services from different parts of the Cloud infrastructure. For example, it might be easier for a project to allow AWS to manage Elasticsearch via their service, so rather than deploy an Elasticsearch pod, you might want to deploy Elasticsearch via the Unity specification and then link that Elasticsearch to the Kubernetes Pods in your Helm chart. This level of abstraction adds additional power to the Unity deployments, and interactions between Kubernetes and non Kubernetes services seamlessly.
 
